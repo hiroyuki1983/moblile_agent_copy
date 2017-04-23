@@ -1,0 +1,38 @@
+
+/* ヘッダー画像 */
+img#header {
+    margin: 20px 0px 0px 0px;
+    width: 375px; /* 何故かこれでうまくいく。iPhone6と6sは横幅は375ポイントで750ピクセルだが。 Cordovaが変換してる？ */
+}
+
+div#main_bottons_container {
+    margin: 20px 0px 0px 0px;
+}
+
+/* 大きいボタン */
+.main_button {
+    width: 360px;
+}
+
+
+/* TODO 要素の中央ぞろえ */
+/* 横並びのボタンの指定部分 */
+/* OnsenUIのグリッドシステム（<ons-col>, <ons-row>）でやると何故かどうやってもmarginが開くのでfloatでやるしかない */
+div#footer_bottons_container {
+    margin: 5px 0px 0px 0px;
+    overflow: hidden;
+}
+
+div.footerBox {
+    float: left;
+}
+
+/* 疑似要素によるfloatの解除 */
+div.footerBox:after {
+    clear: both;
+}
+
+/* 下部の横並び4つのボタン */
+.footer_button {
+    height: 100px;
+}

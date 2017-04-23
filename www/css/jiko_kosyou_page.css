@@ -1,0 +1,44 @@
+
+div#top_button_container {
+    margin: 10px 0px 0px 0px;
+}
+
+div#middle_buttons_container {
+    margin: 5px 0px 0px 0px;
+    display: flex;
+    /* overflow: hidden; /* これがないと後続要素のmargin-topが効かない ⇒ flexboxならいらない */ 
+}
+
+div.footerBox2 {
+    width:calc(100% / 4); /* 4つの要素を均等割り付けする */
+}
+
+/* 中央の横並び4つのボタン */
+.middle_button {
+    height: 110px;
+    margin: 0px 5px 0px 5px;
+}
+
+div#under_button_container {
+    margin: 5px 0px 0px 0px;
+}
+
+ons-toolbar.toolbar {
+    background-color: #25a8da;
+}
+
+/* これでやるとヘッダの文字がずれる。<p>で囲ったらダメかも
+p.toolbar {
+    color: #ffffff;
+}
+*/
+
+div.toolbar {
+    color: #ffffff;
+    font-size: 14pt;
+}
+
+
+ons-back-button.toolbar {
+    color: #ffffff;
+/

@@ -1,0 +1,55 @@
+
+
+div.message_container {
+    margin: 20px 0px 20px 0px;
+    padding: 0px 15px 0px 15px;
+    font-size: 13pt;
+    text-align: left;
+}
+
+div.action_list {
+    /*margin: 20px 0px 0px 0px;*/
+    display: flex;
+    align-items: center; /* Flexboxによる上下中央揃え */
+    border-top: 1px solid #cccccc;
+    height: 64px;
+}
+
+div#sonota {
+    border-bottom: 1px solid #cccccc;
+}
+
+div.icon {
+    margin: 5px 20px 0px 5px; /* align-items: center で画像が中央より若干上になるので位置調整用にtopに6px入れている */
+}
+
+img.icon_img {
+    height: 56px;
+    width:58px;
+}
+
+input#tel_num_input {
+    margin: 0px 0px 0px 0px;
+    width: 86%;
+    background-color: #f1fbfe;
+}
+
+button#mail_send {
+    margin: 15px 10px 0px 10px;
+    width: 90%;
+    height: 50px;
+}
+
+div.divide {
+    margin-top: 15px;
+    height: 30px;
+    background-color: #edf2fa;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+
+button#hozon {
+    margin: 0px 10px 0px 10px;
+    width: 90%;
+    height: 50px;
+}

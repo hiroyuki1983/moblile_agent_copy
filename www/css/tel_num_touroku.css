@@ -1,0 +1,43 @@
+
+div.message_container_tel {
+    margin: 25px 0px 15px 0px;
+    padding: 0px 5px 0px 5px;
+    font-size: 13pt;
+    text-align: left;
+}
+
+input#tel_num_input_touroku {
+    margin: 5px 0px 0px 0px;
+    width: 92%;
+    /*background-color: #f1fbfe;*/
+    font-size: 20pt;
+}
+
+div#settei_header_text_tel {
+    margin: 10px 0px 0px 0px;
+    padding: 10px 0px 0px 10px;
+}
+
+p#header_text_tel {
+    text-align: left;
+}
+
+/* ここから通知設定画面 */
+div.switch_container {
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    margin: 8px 0px 0px 0px;
+    background-color: #ffffff;
+    text-align: left;
+    padding: 12px 0px 12px 10px;
+}
+
+p.small_text {
+    font-size: 10pt;
+    text-align: left;
+}
+
+ons-list-item.switch_list {
+    margin: 10px 0px 0px 0px;
+    /*padding: 5px 0px 5px 0px;*/
+}

@@ -1,0 +1,35 @@
+
+/* OnsenUIのons系のパーツが独自にpaddingとか持ってるから一回全部消さないと微細な調整ができない */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+div#main_container {
+    background-color: #edf2fa;
+    height: 600px;
+}
+
+div#settei_list_container {
+    margin: 10px 0px 0px 0px;
+    /*padding: 0;*/
+}
+
+div#sonota_list_container {
+    margin: 10px 0px 0px 0px;
+    /*padding: 0;*/
+}
+
+p#header_text {
+    text-align: left;
+}
+
+div#settei_header_text {
+    padding: 25px 0px 0px 10px;
+}
+
+div#sonota_header_text {
+    padding: 20px 0px 0px 10px;
+}
+
